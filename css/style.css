@@ -1,0 +1,47 @@
+.navbar {
+  opacity: 0.7;
+  border-bottom: #d60000 3px solid; }
+
+.navbar:hover {
+  opacity: 1; }
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  border-bottom: 1px #ddd solid; }
+
+#home-section {
+  background: url("../img/background.jpg");
+  background-position-y: -2500px;
+  background-position-x: -300px;
+  background-attachment: fixed;
+  min-height: 550px; }
+  #home-section .card {
+    margin-top: 150px;
+    opacity: 0.85;
+    border-radius: 10px; }
+  #home-section .card-body {
+    background: #000;
+    color: #fff;
+    padding-bottom: 80px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; }
+
+#about img {
+  margin-top: -250px; }
+
+#about .card {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2); }
+
+#skills img, #portfolio img {
+  margin-top: -80px; }
+
+@media only screen and (max-width: 479px) {
+  #portfolio .carousel-inner {
+    width: 100%;
+    max-height: 200px !important; }
+  #portfolio .img-item {
+    height: 200px; } }
