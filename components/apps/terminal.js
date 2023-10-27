@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import $ from 'jquery';
-import ReactGA from 'react-ga4';
 
 export class Terminal extends Component {
     constructor() {
@@ -314,11 +313,6 @@ export class Terminal extends Component {
                 this.closeTerminal();
                 return;
             case "sudo":
-
-                ReactGA.event({
-                    category: "Sudo Access",
-                    action: "lol",
-                });
 
                 result = "<img class=' w-2/5' src='./images/memes/used-sudo-command.webp' />";
                 break;
