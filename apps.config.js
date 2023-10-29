@@ -29,7 +29,7 @@ const apps = [
     },
     {
         id: "about-vivek",
-        title: "Hassan Kazemi Tehrani",
+        title: "about Hassan",
         icon: './themes/Yaru/system/user-home.png',
         disabled: false,
         favourite: true,
