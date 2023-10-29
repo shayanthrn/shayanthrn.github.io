@@ -30,10 +30,9 @@ jobs:
       - name: Building 🧱
         run: npm run build
         env:
-          NEXT_PUBLIC_TRACKING_ID: G-8FBXBFXC10
-          NEXT_PUBLIC_SERVICE_ID: service_qt4ryip
-          NEXT_PUBLIC_TEMPLATE_ID: template_2ni69n8
-          NEXT_PUBLIC_USER_ID: user_Do31sKneP4eYfn5n1nLTD
+          NEXT_PUBLIC_SERVICE_ID: service_m61vl6k
+          NEXT_PUBLIC_TEMPLATE_ID: template_2pn0zqu
+          NEXT_PUBLIC_USER_ID: LGuC0oBx80CVREe54
 
       - run: touch ./out/.nojekyll
 
