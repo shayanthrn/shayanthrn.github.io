@@ -10,7 +10,7 @@ export class Trash extends Component {
                 icon: "./themes/filetypes/php.png"
             },
             {
-                name: "Angular.js",
+                name: "vue.js",
                 icon: "./themes/filetypes/js.png"
             },
             {
@@ -19,19 +19,23 @@ export class Trash extends Component {
             },
 
             {
-                name: "abandoned project",
+                name: "Low Salary",
                 icon: "./themes/Yaru/system/folder.png"
             },
             {
-                name: "18BCP127 assignment name.zip",
+                name: "Negative Attitude.zip",
                 icon: "./themes/filetypes/zip.png"
             },
             {
-                name: "project final",
+                name: "uncommitment",
                 icon: "./themes/Yaru/system/folder.png"
             },
             {
-                name: "project ultra-final",
+                name: "Yasuo",
+                icon: "./themes/Yaru/others/Yasuo.jpg"
+            },
+            {
+                name: "irresponsibility",
                 icon: "./themes/Yaru/system/folder.png"
             },
 
