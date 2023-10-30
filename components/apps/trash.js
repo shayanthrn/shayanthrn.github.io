@@ -38,6 +38,10 @@ export class Trash extends Component {
                 name: "irresponsibility",
                 icon: "./themes/Yaru/system/folder.png"
             },
+            {
+                name: "dota2.exe",
+                icon: "./themes/Yaru/others/dota2.png"
+            },
 
         ];
         this.state = {
