@@ -7,6 +7,7 @@ import { displayTrash } from './components/apps/trash';
 import { displayGedit } from './components/apps/gedit';
 import { displayAboutVivek } from './components/apps/vivek';
 import { displayTerminalCalc } from './components/apps/calc';
+import displaySubway from './components/apps/subway';
 
 const apps = [
     {
@@ -62,6 +63,15 @@ const apps = [
         favourite: true,
         desktop_shortcut: false,
         screen: displaySpotify,
+    },
+    {
+        id: "subway",
+        title: "Subway Surfer",
+        icon: './themes/Yaru/apps/subwaysurfer.png',
+        disabled: false,
+        favourite: true,
+        desktop_shortcut: false,
+        screen: displaySubway,
     },
     {
         id: "settings",
