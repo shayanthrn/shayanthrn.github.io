@@ -122,7 +122,7 @@ function About() {
                 <li className=" mt-3 list-building">  I have a lot of work experience in Software Engineering and DevOps. I have worked for <u className=' cursor-pointer '><a href='https://pishgamvira.com/' target={"_blank"}>Vira Co.</a></u> as a Senior Software Engineer and Server Manager. In that position, I have developed a reservation system for doctors appointment in NodeJS(JavaScript). I was responsible for Design, development, deployment and maintenance of the project. As project failed due to some buissiness issues the source code is publicly available at <u className=' cursor-pointer '><a href='https://github.com/shayanthrn/reservation-vira-backend' target='blank'>my github repo</a></u>.</li>
                 <li className=" mt-3 list-building"> After a while, I found a better job oppurtunity at <span className=" font-medium"><u className=' cursor-pointer '><a href='https://idmelon.com/' target={"_blank"}>IDmelon Inc. Vancouver, Canada</a></u></span> as a Software Engineer. I was responsible for design, development, deployment and maintenance of IDmelon SSO server. As a team, we developed SAML2 and OIDC protocols and designed a SSO server for Phishing-resistant Passwordless FIDO2 Authentication. My main responsibilities were design Software Architecture and development of server using Django(Python).</li>
                 <li className=" mt-3 list-time"> When I am not coding or studying, I like to spend my time watching anime, playing League of Legends or spending time with my friends. </li>
-                <li className=" mt-3 list-star"> And I also have interest in Deep Learning & Computer Vision!</li>
+                <li className=" mt-3 list-star"> And I also have interest and I am expert in Deep Learning & Computer Vision!</li>
             </ul>
         </>
     )
@@ -181,38 +181,74 @@ function Skills() {
                     I've worked with a wide variety of programming languages & frameworks.
                 </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    <div> My areas of expertise are <strong className="text-ubt-gedit-orange">front-end development, React.js & javascript!</strong></div>
+                    <div> My areas of expertise are <strong className="text-ubt-gedit-orange">back-end development and DevOps!</strong></div>
                 </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
                     <div>Here are my most frequently used</div>
                 </li>
             </ul>
             <div className="w-full md:w-10/12 flex mt-4">
-                <div className=" text-sm text-center md:text-base w-1/2 font-bold">Languages & Tools</div>
+                <div className=" text-sm text-center md:text-base w-1/2 font-bold">Communication Languages</div>
+                <div className=" text-sm text-center md:text-base w-1/2 font-bold">Languages</div>
                 <div className=" text-sm text-center md:text-base w-1/2 font-bold">Frameworks & Libraries</div>
+                <div className=" text-sm text-center md:text-base w-1/2 font-bold">Tools & Others</div>
             </div>
             <div className="w-full md:w-10/12 flex justify-center items-start font-bold text-center">
+            <div className="px-2 w-1/2">
+                    <div className="flex flex-wrap justify-center items-start w-full mt-2">
+                        <img className="m-1" src="http://img.shields.io/badge/-English-3776AB?style=flat&logo=etsy&logoColor=ffffff" alt="hassan English" />
+                        <img className="m-1" src="https://img.shields.io/badge/-Persian-%23F7DF1C?style=flat&logo=pixiv&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A" alt="hassan Persian" />
+                        <img src="https://img.shields.io/badge/-French(A1)-FFCA28?style=flat&logo=fluxus&logoColor=ffffff" alt="hassan French" className="m-1" />
+                    </div>
+                </div>
                 <div className="px-2 w-1/2">
                     <div className="flex flex-wrap justify-center items-start w-full mt-2">
-                        <img className="m-1" src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A" alt="hassan javascript" />
-                        <img className="m-1" src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white" alt="hassan c++" />
                         <img className="m-1" src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff" alt="hassan python" />
-                        <img className="m-1" src="https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white" alt="hassan dart" />
+                        <img className="m-1" src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A" alt="hassan javascript" />
+                        <img className="m-1" src="https://img.shields.io/badge/-TypeScript-%23F7DF1C?style=flat&logo=TypeScript&logoColor=000000&labelColor=red&color=red" alt="hassan TypeScript" />
+                        <img src="https://img.shields.io/badge/-Kotlin-FFCA28?style=flat&logo=Kotlin&logoColor=ffffff" alt="hassan Kotlin" className="m-1" />
+                        <img src="https://img.shields.io/badge/-Java-%23F05032?style=flat&logo=intellijidea&logoColor=%23ffffff" alt="hassan Java" className="m-1" />
+                        <img className="m-1" src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" alt="hassan c" />
+                        
+                        <img className="m-1" src="https://img.shields.io/badge/css-blue?style=flat&logo=css3&logoColor=white" alt="hassan css" />
                         <a href="https://www.google.com/search?q=is+html+a+language%3F" target="_blank" rel="noreferrer"><img title="yes it's a language!" className="m-1" src="https://img.shields.io/badge/-HTML5-%23E44D27?style=flat&logo=html5&logoColor=ffffff" alt="hassan HTML" /></a>
-                        <img src="https://img.shields.io/badge/-Sass-%23CC6699?style=flat&logo=sass&logoColor=ffffff" alt="hassan SASS" className="m-1" />
-                        <img src="https://img.shields.io/badge/-Git-%23F05032?style=flat&logo=git&logoColor=%23ffffff" alt="hassan git" className="m-1" />
-                        <img src="https://img.shields.io/badge/-Firebase-FFCA28?style=flat&logo=firebase&logoColor=ffffff" alt="hassan firebase" className="m-1" />
+                        <img src="https://img.shields.io/badge/-SQL-yellow?style=flat&logo=mysql&logoColor=%23ffffff" alt="hassan SQL" className="m-1" />
+                        
                     </div>
                 </div>
                 <div className="px-2 flex flex-wrap items-start w-1/2">
                     <div className="flex flex-wrap justify-center items-start w-full mt-2">
-                        <img className=" m-1" src="https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=ffffff" alt="hassan next" />
-                        <img className=" m-1" src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=ffffff" alt="hassan react" />
-                        <img className="m-1" src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white" alt="hassan flutter" />
-                        <img className="m-1" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" alt="hassan tailwind css" />
+                        <img src="https://img.shields.io/badge/-Django-red?style=flat&logo=django&logoColor=ffffff" alt="hassan django" className="m-1" />
                         <img src="https://img.shields.io/badge/-Nodejs-339933?style=flat&logo=Node.js&logoColor=ffffff" alt="hassan node.js" className="m-1" />
+                        <img className="m-1" src="https://img.shields.io/badge/expressJs-593D88?style=flat&logo=express&logoColor=white" alt="hassan express.js" />
+                        <img className=" m-1" src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=ffffff" alt="hassan react" />
                         <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white" alt="hassan jquery" className="m-1" />
-                        <img className="m-1" src="https://img.shields.io/badge/Redux-593D88?style=flat&logo=redux&logoColor=white" alt="hassan redux" />
+                        <img className=" m-1" src="https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=ffffff" alt="hassan next" />
+                        <img className="m-1" src="https://img.shields.io/badge/Numpy-593D88?style=flat&logo=numpy&logoColor=white" alt="hassan numpy" />
+                        <img src="https://img.shields.io/badge/-PyTorch-red?style=flat&logo=pytorch&logoColor=ffffff" alt="hassan pytorch" className="m-1" />
+                        <img src="https://img.shields.io/badge/-Librosa-339933?style=flat&logo=librarything&logoColor=ffffff" alt="hassan Librosa" className="m-1" />
+                        <img src="https://img.shields.io/badge/-Matplotlib-FFCA28?style=flat&logo=&logoColor=ffffff" alt="hassan matplotlib" className="m-1" />
+                        <img className=" m-1" src="https://img.shields.io/badge/pandas-black?style=flat&logo=pandas&logoColor=ffffff" alt="hassan pandas" />
+                        <img src="https://img.shields.io/badge/-SciPy-339933?style=flat&logo=SciPy&logoColor=ffffff" alt="hassan SciPy" className="m-1" />
+                    </div>
+                </div>
+                <div className="px-2 w-1/2">
+                    <div className="flex flex-wrap justify-center items-start w-full mt-2">
+                        <img src="https://img.shields.io/badge/-Git-%23F05032?style=flat&logo=git&logoColor=%23ffffff" alt="hassan git" className="m-1" />
+                        <img className="m-1" src="https://img.shields.io/badge/-MongoDB-%23F7DF1C?style=flat&logo=mongodb&logoColor=000000&labelColor=green&color=green" alt="hassan MongoDB" />
+                        <img className="m-1" src="https://img.shields.io/badge/PostgreSQL-00599C?style=flat&logo=postgreSQL%2B%2B&logoColor=white" alt="hassan PostgreSQL" />
+                        <img className="m-1" src="http://img.shields.io/badge/-SQlite-3776AB?style=flat&logo=sqlite&logoColor=ffffff" alt="hassan SQlite" />
+                        <img src="https://img.shields.io/badge/-Google App Engine/Google Cloud-%23CC6699?style=flat&logo=googlecloud&logoColor=ffffff" alt="hassan GAE" className="m-1" />
+                        <img src="https://img.shields.io/badge/-Docker-%23F05032?style=flat&logo=docker&logoColor=%23ffffff" alt="hassan Docker" className="m-1" />
+                        <img className="m-1" src="http://img.shields.io/badge/-Kubernetes-3776AB?style=flat&logo=kubernetes&logoColor=ffffff" alt="hassan Kubernetes" />
+                        <img className=" m-1" src="https://img.shields.io/badge/AWS-black?style=flat&logo=amazonaws&logoColor=ffffff" alt="hassan AWS" />
+                        <img className="m-1" src="https://img.shields.io/badge/Scrum-0175C2?style=flat&logo=scrumalliance&logoColor=white" alt="hassan Scrum" />
+                        <img src="https://img.shields.io/badge/-DevOps-%23CC6699?style=flat&logo=azuredevops&logoColor=ffffff" alt="hassan DevOps" className="m-1" />
+                        <img className="m-1" src="http://img.shields.io/badge/-SSO-3776AB?style=flat&logo=simkl&logoColor=ffffff" alt="hassan SSO" />
+                        <img className="m-1" src="http://img.shields.io/badge/-Software Architecture-3776AB?style=flat&logo=&logoColor=ffffff" alt="hassan SA" />
+                        <img className="m-1" src="https://img.shields.io/badge/Microservices-593D88?style=flat&logo=&logoColor=white" alt="hassan Microservices" />
+                        <img className="m-1" src="http://img.shields.io/badge/-Jira-3776AB?style=flat&logo=jirasoftware&logoColor=ffffff" alt="hassan Jira" />
+                        <img className="m-1" src="https://img.shields.io/badge/REST-0175C2?style=flat&logo=&logoColor=white" alt="hassan REST" />
                     </div>
                 </div>
             </div>
