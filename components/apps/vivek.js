@@ -317,6 +317,15 @@ function Projects() {
                 "Any-to-Many Voice conversion application using StarGANv2 as its machine learning model. This is my BS thesis.",
             ],
             domains: ["Django", "PyTorch", "SQlite", "Numpy", "Audio Processing"]
+        },
+        {
+            name: "Jpotify",
+            date: "",
+            link: "https://github.com/shayanthrn/Jpotify",
+            description: [
+                "This is a Java Application cloning Spotify Application.",
+            ],
+            domains: ["Java"]
         }
     ];
 
