@@ -118,7 +118,7 @@ function About() {
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
-                <li className=" list-pc">I'm a <span className=" font-medium">Graduate Student(Master of Applied Science)</span> currently pursuing Computer Engineering and I am researching on Computer Vision in IoT. I've completed my BSc at <u className=' cursor-pointer '> <a href="https://en.wikipedia.org/wiki/Amirkabir_University_of_Technology" target={"_blank"}>AmirKabir University of Technology</a> </u>. Right now I'm looking for full-time/part-time Software/DevOps engineer roles! ( Hit me up <a className='text-underline' href='mailto:shayanthrn@gmail.com'><u>@shayanthrn@gmail.com</u></a> :) )</li>
+                <li className=" list-pc">I'm a <span className=" font-medium">Graduate Student(Master of Applied Science)</span> currently pursuing Computer Engineering and I am researching on Computer Vision in IoT. I've completed my BSc at <u className=' cursor-pointer '> <a href="https://en.wikipedia.org/wiki/Amirkabir_University_of_Technology" target={"_blank"}>AmirKabir University of Technology</a> </u>. Right now I'm looking for full-time/part-time Software/DevOps Engineer roles! ( Hit me up <a className='text-underline' href='mailto:shayanthrn@gmail.com'><u>@shayanthrn@gmail.com</u></a> :) )</li>
                 <li className=" mt-3 list-building">  I have a lot of work experience in Software Engineering and DevOps. I have worked for <u className=' cursor-pointer '><a href='https://pishgamvira.com/' target={"_blank"}>Vira Co.</a></u> as a Senior Software Engineer and Server Manager. In that position, I have developed a reservation system for doctors appointment in NodeJS(JavaScript). I was responsible for Design, development, deployment and maintenance of the project. As project failed due to some buissiness issues the source code is publicly available at <u className=' cursor-pointer '><a href='https://github.com/shayanthrn/reservation-vira-backend' target='blank'>my github repo</a></u>.</li>
                 <li className=" mt-3 list-building"> After a while, I found a better job oppurtunity at <span className=" font-medium"><u className=' cursor-pointer '><a href='https://idmelon.com/' target={"_blank"}>IDmelon Inc. Vancouver, Canada</a></u></span> as a Software Engineer. I was responsible for design, development, deployment and maintenance of IDmelon SSO server. As a team, we developed SAML2 and OIDC protocols and designed a SSO server for Phishing-resistant Passwordless FIDO2 Authentication. My main responsibilities were design Software Architecture and development of server using Django(Python).</li>
                 <li className=" mt-3 list-time"> When I am not coding or studying, I like to spend my time watching anime, playing League of Legends or spending time with my friends. </li>
@@ -148,19 +148,11 @@ function Education() {
                 </li>
                 <li className="list-disc">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Bachelor of Science - Amirkabir University of Technology - Tehran, Iran (Rank 1 of Iran)
+                        Bachelor of Engineering - Amirkabir University of Technology - Tehran, Iran (Rank 1 of Iran)
                     </div>
                     <div className=" text-sm text-gray-400 mt-0.5">2017 - 2021</div>
                     <div className=" text-sm md:text-base">Computer Engineering</div>
                     <div className="text-sm text-gray-300 font-bold mt-1">GPA &nbsp; 3.9/4, Top 3% of University</div>
-                </li>
-                <li className="list-disc mt-5">
-                    <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Class 12<sup>th</sup> (Dr. Mosaheb High School, Tehran, Iran)
-                    </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2016 - 2017</div>
-                    <div className=" text-sm md:text-base">Maths, Physics, Chemistry</div>
-                    <div className="text-sm text-gray-300 font-bold mt-1">GPA &nbsp; 19.85/20, Rank 1 of High School</div>
                 </li>
             </ul>
         </>
@@ -181,7 +173,7 @@ function Skills() {
                     I've worked with a wide variety of programming languages & frameworks.
                 </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    <div> My areas of expertise are <strong className="text-ubt-gedit-orange">back-end development and DevOps!</strong></div>
+                    <div> My areas of expertise are <strong className="text-ubt-gedit-orange">Back-End Development and DevOps!</strong></div>
                 </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
                     <div>Here are my most frequently used</div>
@@ -271,6 +263,60 @@ function Projects() {
                 "This is my personal portfolio website of theme Ubuntu 20.04, made using Next.js & tailwind CSS. The source code belongs to https://github.com/vivek9patel/vivek9patel.github.io, but I made some customizations and personalizations to meet my requirments.",
             ],
             domains: ["javascript", "next.js", "tailwindcss"]
+        },
+        {
+            name: "IDmelon",
+            date: "",
+            link: "#",
+            description: [
+                "Phishing-resistant Passwordless FIDO2 Authentication system. Move one step ahead of common SSO. Using IDmelon Simple Sign-On is not limited to IAMs and SSOs. Any web service which supports federated identity protocols like SAML, OpenID, or OATH2.0 can be set up and users can enjoy Simple Single Sign-On (SSO) to access these platforms, including Slack, Salesforce, Oracle, SAP, Workday, Cerner and many more. \n This project is not publicly available.",
+            ],
+            domains: ["Django", "Django-ninja", "React", "Software Architecture", "CI/CD", "Jira", "Scrum", "bitbucket","MVC Design", "Microservices", "REST", "PostgreSQL", "Google App Engin", "Docker", "Google Cloud", "Multiple application's APIs", "Encryption Algorithms","SAML2","OIDC", "FIDO2","HTML", "CSS","MongoDB"]
+        },
+        {
+            name: "Dr. Tajviz",
+            date: "",
+            link: "https://github.com/shayanthrn/reservation-vira-backend",
+            description: [
+                "Web Apllication for booking doctor's appointment",
+            ],
+            domains: ["NodeJS", "ExpressJS", "Shaparak API", "SMS API", "Zarinpal payment API", "EJS", "Javascript", "HTML", "CSS","MongoDB"]
+        },
+        {
+            name: "Webfolio",
+            date: "",
+            link: "https://github.com/shayanthrn/webfolio",
+            description: [
+                "An Intelligent Portfolio Website Creation System with Data-Driven Recommendation",
+            ],
+            domains: ["javascript", "Django", "LinkedIn API", "ChatGPT API", "HTML5", "CSS"]
+        },
+        {
+            name: "Food Intake Monitoring",
+            date: "",
+            link: "https://github.com/shayanthrn/FoodIntakeMonitoring",
+            description: [
+                "Food Intake Monitoring android application which uses Computer Vision Techniques to detect the amount of nutrients from a single image of food. This project is part of my MASc thesis",
+            ],
+            domains: ["Django", "PyTorch", "Numpy", "Kotlin", "Computer Vision"]
+        },
+        {
+            name: "FooFle",
+            date: "",
+            link: "https://github.com/shayanthrn/FooFle",
+            description: [
+                "Database design and Web Application for Email Service using mariaDB and Nodejs.",
+            ],
+            domains: ["Nodejs", "SQL", "mariaDB"]
+        },
+        {
+            name: "Any-to-Many Voice conversion application",
+            date: "",
+            link: "https://github.com/shayanthrn/thesis",
+            description: [
+                "Any-to-Many Voice conversion application using StarGANv2 as its machine learning model. This is my BS thesis.",
+            ],
+            domains: ["Django", "PyTorch", "SQlite", "Numpy", "Audio Processing"]
         }
     ];
 
@@ -313,7 +359,7 @@ function Projects() {
                                 <div className="flex flex-wrap justify-between items-center">
                                     <div className='flex justify-center items-center'>
                                         <div className=" text-base md:text-lg mr-2">{project.name.toLowerCase()}</div>
-                                        <iframe src={`https://ghbtns.com/github-btn.html?user=vivek9patel&repo=${projectName}&type=star&count=true`} frameBorder="0" scrolling="0" width="150" height="20" title={project.name.toLowerCase()+"-star"}></iframe>
+                                        <iframe src={`https://ghbtns.com/github-btn.html?user=shayanthrn&repo=${projectName}&type=star&count=true`} frameBorder="0" scrolling="0" width="150" height="20" title={project.name.toLowerCase()+"-star"}></iframe>
                                     </div>
                                     <div className="text-gray-300 font-light text-sm">{project.date}</div>
                                 </div>
