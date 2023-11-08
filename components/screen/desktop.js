@@ -34,11 +34,11 @@ export class Desktop extends Component {
     }
 
     componentDidMount() {
-        this.openApp("about-vivek")
         this.fetchAppsData();
         this.setContextListeners();
         this.setEventListeners();
         this.checkForNewFolders();
+        this.openApp("about-vivek");
     }
 
     componentWillUnmount() {
