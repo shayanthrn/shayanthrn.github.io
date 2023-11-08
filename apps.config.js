@@ -30,7 +30,7 @@ const apps = [
     },
     {
         id: "about-vivek",
-        title: "about Hassan",
+        title: "about Shayan",
         icon: './themes/Yaru/system/user-home.png',
         disabled: false,
         favourite: true,
