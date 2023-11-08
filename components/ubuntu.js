@@ -63,7 +63,6 @@ export default class Ubuntu extends Component {
 	};
 
 	unLockScreen = () => {
-
 		window.removeEventListener('click', this.unLockScreen);
 		window.removeEventListener('keypress', this.unLockScreen);
 

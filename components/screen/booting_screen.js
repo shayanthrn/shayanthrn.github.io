@@ -16,6 +16,7 @@ function BootingScreen(props) {
                 <span className="font-bold mx-1">|</span>
                 <a href="https://github.com/shayanthrn/shayanthrn.github.io" rel="noreferrer noopener" target="_blank" className="underline">github</a>
             </div>
+            
         </div>
     )
 }

@@ -34,7 +34,7 @@ export class Desktop extends Component {
     }
 
     componentDidMount() {
-
+        this.openApp("about-vivek")
         this.fetchAppsData();
         this.setContextListeners();
         this.setEventListeners();
@@ -238,6 +238,7 @@ export class Desktop extends Component {
             }
         });
         return appsJsx;
+        
     }
 
     renderWindows = () => {
@@ -502,7 +503,6 @@ export class Desktop extends Component {
 
                 {/* Desktop Apps */}
                 {this.renderDesktopApps()}
-
                 {/* Context Menus */}
                 <DesktopMenu active={this.state.context_menus.desktop} openApp={this.openApp} addNewFolder={this.addNewFolder} />
                 <DefaultMenu active={this.state.context_menus.default} />
