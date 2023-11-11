@@ -38,7 +38,7 @@ export class Desktop extends Component {
         this.setContextListeners();
         this.setEventListeners();
         this.checkForNewFolders();
-        this.openApp("about-vivek");
+        // this.openApp("about-vivek");
     }
 
     componentWillUnmount() {
@@ -94,6 +94,7 @@ export class Desktop extends Component {
             default:
                 this.showContextMenu(e, "default");
         }
+        
     }
 
     showContextMenu = (e, menuName /* context menu name */) => {
@@ -458,7 +459,6 @@ export class Desktop extends Component {
             let folder_name = document.getElementById("folder-name-input").value;
             this.addToDesktop(folder_name);
         }
-
         let removeCard = () => {
             this.setState({ showNameBar: false });
         }
@@ -480,7 +480,6 @@ export class Desktop extends Component {
     render() {
         return (
             <div className={" h-full w-full flex flex-col items-end justify-start content-start flex-wrap-reverse pt-8 bg-transparent relative overflow-hidden overscroll-none window-parent"}>
-
                 {/* Window Area */}
                 <div className="absolute h-full w-full bg-transparent" data-context="desktop-area">
                     {this.renderWindows()}
