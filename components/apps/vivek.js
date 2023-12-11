@@ -178,7 +178,7 @@ function Skills() {
                     I've worked with a wide variety of programming languages & frameworks.
                 </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    <div> My areas of expertise are <strong className="text-ubt-gedit-orange">Back-End Development and DevOps!</strong></div>
+                    <div> My areas of expertise is <strong className="text-ubt-gedit-orange">Gameplay Engineering!</strong></div>
                 </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
                     <div>Here are my most frequently used</div>
@@ -221,6 +221,7 @@ function Skills() {
                     <img src="https://img.shields.io/badge/-Unreal Engine 5-%23F05032?style=flat&logo=unrealengine&logoColor=#0E1128" alt="Shayan unreal engine" className="m-1" />
                     <img className="m-1" src="https://img.shields.io/badge/Game Design-00599C?style=flat&logo=%2B%2B&logoColor=red" alt="Shayan game design" />
                     <img className="m-1" src="https://img.shields.io/badge/Linear Algebra-00599C?style=flat&logo=%2B%2B&logoColor=white" alt="Shayan linear algebra" />
+                    <img className="m-1" src="https://img.shields.io/badge/AI programming-00599C?style=flat&logo=%2B%2B&logoColor=yellow" alt="Shayan AI programming" />
                         <img src="https://img.shields.io/badge/-Git-%23F05032?style=flat&logo=git&logoColor=%23ffffff" alt="Shayan git" className="m-1" />
                         <img className="m-1" src="https://img.shields.io/badge/-MongoDB-%23F7DF1C?style=flat&logo=mongodb&logoColor=000000&labelColor=green&color=green" alt="Shayan MongoDB" />
                         <img className="m-1" src="https://img.shields.io/badge/PostgreSQL-00599C?style=flat&logo=postgreSQL%2B%2B&logoColor=white" alt="Shayan PostgreSQL" />
