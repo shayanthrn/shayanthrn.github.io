@@ -141,6 +141,52 @@ function Games() {
                             <div className="w-full py-1 px-2 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 cursor-pointer">
                                 <div className="flex flex-wrap justify-between items-center">
                                     <div className='flex justify-center items-center'>
+                                        <div className=" text-base md:text-lg mr-2">Toon Tanks</div>
+                                    </div>
+                                </div>
+                                <ul className=" tracking-normal leading-tight text-sm font-light ml-4 mt-1">
+                                <li>Developed a tank combat game in Unreal Engine 5, placing players in command of a tank to engage and destroy AI-controlled enemies.</li>
+                                </ul>
+                                <div className="flex flex-wrap items-start justify-start text-xs py-2">
+                                <span key="1" className={`px-1.5 py-0.5 w-max border border-red-600 text-red-600 m-1 rounded-full`}>Unreal Engine 5</span>
+                                </div>
+                            </div>
+            </a>
+            <a key="2" href="" target="_blank" rel="noreferrer" className="flex w-full flex-col px-4">
+                            <div className="w-full py-1 px-2 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 cursor-pointer">
+                                <div className="flex flex-wrap justify-between items-center">
+                                    <div className='flex justify-center items-center'>
+                                        <div className=" text-base md:text-lg mr-2">Crypt Raider</div>
+                                    </div>
+                                </div>
+                                <ul className=" tracking-normal leading-tight text-sm font-light ml-4 mt-1">
+                                <li>Engineered a first-person treasure heist game in Unreal Engine 5, emphasizing secret passages and intricate puzzles for an immersive player experience.</li>
+                                <li>Leveraged the cutting-edge Lumen lighting system to enhance visual realism, creating atmospheric environments within the crypt setting.</li>
+                                </ul>
+                                <div className="flex flex-wrap items-start justify-start text-xs py-2">
+                                <span key="2" className={`px-1.5 py-0.5 w-max border border-red-600 text-red-600 m-1 rounded-full`}>Unreal Engine 5</span>
+                                </div>
+                            </div>
+            </a>
+            <a key="3" href="" target="_blank" rel="noreferrer" className="flex w-full flex-col px-4">
+                            <div className="w-full py-1 px-2 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 cursor-pointer">
+                                <div className="flex flex-wrap justify-between items-center">
+                                    <div className='flex justify-center items-center'>
+                                        <div className=" text-base md:text-lg mr-2">Obstacle Assault</div>
+                                    </div>
+                                </div>
+                                <ul className=" tracking-normal leading-tight text-sm font-light ml-4 mt-1">
+                                <li>Crafted a 3rd person open-world game in Unreal Engine 5, featuring a challenging obstacle course with moving obstacles.</li>
+                                </ul>
+                                <div className="flex flex-wrap items-start justify-start text-xs py-2">
+                                <span key="3" className={`px-1.5 py-0.5 w-max border border-red-600 text-red-600 m-1 rounded-full`}>Unreal Engine 5</span>
+                                </div>
+                            </div>
+            </a>
+            <a key="4" href="" target="_blank" rel="noreferrer" className="flex w-full flex-col px-4">
+                            <div className="w-full py-1 px-2 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 cursor-pointer">
+                                <div className="flex flex-wrap justify-between items-center">
+                                    <div className='flex justify-center items-center'>
                                         <div className=" text-base md:text-lg mr-2">Warehouse Wreckage</div>
                                     </div>
                                 </div>
@@ -148,7 +194,7 @@ function Games() {
                                 <li>Developed a physics-based arcade game in Unreal Engine 5 with precise throwing mechanics.</li>
                                 </ul>
                                 <div className="flex flex-wrap items-start justify-start text-xs py-2">
-                                <span key="1" className={`px-1.5 py-0.5 w-max border border-red-600 text-red-600 m-1 rounded-full`}>Unreal Engine 5</span>
+                                <span key="4" className={`px-1.5 py-0.5 w-max border border-red-600 text-red-600 m-1 rounded-full`}>Unreal Engine 5</span>
                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/9YZNaVm__bo?si=K41ipylhof5152N3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                 </div>
                             </div>
