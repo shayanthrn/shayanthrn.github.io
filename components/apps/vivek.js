@@ -149,7 +149,7 @@ function Education() {
                     </div>
                     <div className=" text-sm text-gray-400 mt-0.5">2022 - present</div>
                     <div className=" text-sm md:text-base">Computer Engineering</div>
-                    <div className="text-sm text-gray-300 font-bold mt-1">GPA &nbsp; TBD</div>
+                    <div className="text-sm text-gray-300 font-bold mt-1">GPA &nbsp; 4/4.30</div>
                 </li>
                 <li className="list-disc">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
@@ -187,8 +187,9 @@ function Skills() {
             <div className="w-full md:w-10/12 flex mt-4">
                 <div className=" text-sm text-center md:text-base w-1/2 font-bold">Communication Languages</div>
                 <div className=" text-sm text-center md:text-base w-1/2 font-bold">Languages</div>
+                <div className=" text-sm text-center md:text-base w-1/2 font-bold">Game Design & Engineering Skills</div>
                 <div className=" text-sm text-center md:text-base w-1/2 font-bold">Frameworks & Libraries</div>
-                <div className=" text-sm text-center md:text-base w-1/2 font-bold">Tools & Others</div>
+                
             </div>
             <div className="w-full md:w-10/12 flex justify-center items-start font-bold text-center">
             <div className="px-2 w-1/2">
@@ -200,17 +201,41 @@ function Skills() {
                 </div>
                 <div className="px-2 w-1/2">
                     <div className="flex flex-wrap justify-center items-start w-full mt-2">
+                        <img className="m-1" src="https://img.shields.io/badge/C++-00599C?style=flat&logo=c&logoColor=white" alt="Shayan c++" />
+                        <img className="m-1" src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" alt="Shayan c" />
                         <img className="m-1" src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff" alt="Shayan python" />
                         <img className="m-1" src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A" alt="Shayan javascript" />
                         <img className="m-1" src="https://img.shields.io/badge/-TypeScript-%23F7DF1C?style=flat&logo=TypeScript&logoColor=000000&labelColor=red&color=red" alt="Shayan TypeScript" />
                         <img src="https://img.shields.io/badge/-Kotlin-FFCA28?style=flat&logo=Kotlin&logoColor=ffffff" alt="Shayan Kotlin" className="m-1" />
                         <img src="https://img.shields.io/badge/-Java-%23F05032?style=flat&logo=intellijidea&logoColor=%23ffffff" alt="Shayan Java" className="m-1" />
-                        <img className="m-1" src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" alt="Shayan c" />
+                        
                         
                         <img className="m-1" src="https://img.shields.io/badge/css-blue?style=flat&logo=css3&logoColor=white" alt="Shayan css" />
                         <a href="https://www.google.com/search?q=is+html+a+language%3F" target="_blank" rel="noreferrer"><img title="yes it's a language!" className="m-1" src="https://img.shields.io/badge/-HTML5-%23E44D27?style=flat&logo=html5&logoColor=ffffff" alt="Shayan HTML" /></a>
                         <img src="https://img.shields.io/badge/-SQL-yellow?style=flat&logo=mysql&logoColor=%23ffffff" alt="Shayan SQL" className="m-1" />
                         
+                    </div>
+                </div>
+                <div className="px-2 w-1/2">
+                    <div className="flex flex-wrap justify-center items-start w-full mt-2">
+                    <img src="https://img.shields.io/badge/-Unreal Engine 5-%23F05032?style=flat&logo=unrealengine&logoColor=#0E1128" alt="Shayan unreal engine" className="m-1" />
+                    <img className="m-1" src="https://img.shields.io/badge/Game Design-00599C?style=flat&logo=%2B%2B&logoColor=red" alt="Shayan game design" />
+                    <img className="m-1" src="https://img.shields.io/badge/Linear Algebra-00599C?style=flat&logo=%2B%2B&logoColor=white" alt="Shayan linear algebra" />
+                        <img src="https://img.shields.io/badge/-Git-%23F05032?style=flat&logo=git&logoColor=%23ffffff" alt="Shayan git" className="m-1" />
+                        <img className="m-1" src="https://img.shields.io/badge/-MongoDB-%23F7DF1C?style=flat&logo=mongodb&logoColor=000000&labelColor=green&color=green" alt="Shayan MongoDB" />
+                        <img className="m-1" src="https://img.shields.io/badge/PostgreSQL-00599C?style=flat&logo=postgreSQL%2B%2B&logoColor=white" alt="Shayan PostgreSQL" />
+                        <img className="m-1" src="http://img.shields.io/badge/-SQlite-3776AB?style=flat&logo=sqlite&logoColor=ffffff" alt="Shayan SQlite" />
+                        <img src="https://img.shields.io/badge/-Google App Engine/Google Cloud-%23CC6699?style=flat&logo=googlecloud&logoColor=ffffff" alt="Shayan GAE" className="m-1" />
+                        <img src="https://img.shields.io/badge/-Docker-%23F05032?style=flat&logo=docker&logoColor=%23ffffff" alt="Shayan Docker" className="m-1" />
+                        <img className="m-1" src="http://img.shields.io/badge/-Kubernetes-3776AB?style=flat&logo=kubernetes&logoColor=ffffff" alt="Shayan Kubernetes" />
+                        <img className=" m-1" src="https://img.shields.io/badge/AWS-black?style=flat&logo=amazonaws&logoColor=ffffff" alt="Shayan AWS" />
+                        <img className="m-1" src="https://img.shields.io/badge/Scrum-0175C2?style=flat&logo=scrumalliance&logoColor=white" alt="Shayan Scrum" />
+                        <img src="https://img.shields.io/badge/-DevOps-%23CC6699?style=flat&logo=azuredevops&logoColor=ffffff" alt="Shayan DevOps" className="m-1" />
+                        <img className="m-1" src="http://img.shields.io/badge/-SSO-3776AB?style=flat&logo=simkl&logoColor=ffffff" alt="Shayan SSO" />
+                        <img className="m-1" src="http://img.shields.io/badge/-Software Architecture-3776AB?style=flat&logo=&logoColor=ffffff" alt="Shayan SA" />
+                        <img className="m-1" src="https://img.shields.io/badge/Microservices-593D88?style=flat&logo=&logoColor=white" alt="Shayan Microservices" />
+                        <img className="m-1" src="http://img.shields.io/badge/-Jira-3776AB?style=flat&logo=jirasoftware&logoColor=ffffff" alt="Shayan Jira" />
+                        <img className="m-1" src="https://img.shields.io/badge/REST-0175C2?style=flat&logo=&logoColor=white" alt="Shayan REST" />
                     </div>
                 </div>
                 <div className="px-2 flex flex-wrap items-start w-1/2">
@@ -229,25 +254,7 @@ function Skills() {
                         <img src="https://img.shields.io/badge/-SciPy-339933?style=flat&logo=SciPy&logoColor=ffffff" alt="Shayan SciPy" className="m-1" />
                     </div>
                 </div>
-                <div className="px-2 w-1/2">
-                    <div className="flex flex-wrap justify-center items-start w-full mt-2">
-                        <img src="https://img.shields.io/badge/-Git-%23F05032?style=flat&logo=git&logoColor=%23ffffff" alt="Shayan git" className="m-1" />
-                        <img className="m-1" src="https://img.shields.io/badge/-MongoDB-%23F7DF1C?style=flat&logo=mongodb&logoColor=000000&labelColor=green&color=green" alt="Shayan MongoDB" />
-                        <img className="m-1" src="https://img.shields.io/badge/PostgreSQL-00599C?style=flat&logo=postgreSQL%2B%2B&logoColor=white" alt="Shayan PostgreSQL" />
-                        <img className="m-1" src="http://img.shields.io/badge/-SQlite-3776AB?style=flat&logo=sqlite&logoColor=ffffff" alt="Shayan SQlite" />
-                        <img src="https://img.shields.io/badge/-Google App Engine/Google Cloud-%23CC6699?style=flat&logo=googlecloud&logoColor=ffffff" alt="Shayan GAE" className="m-1" />
-                        <img src="https://img.shields.io/badge/-Docker-%23F05032?style=flat&logo=docker&logoColor=%23ffffff" alt="Shayan Docker" className="m-1" />
-                        <img className="m-1" src="http://img.shields.io/badge/-Kubernetes-3776AB?style=flat&logo=kubernetes&logoColor=ffffff" alt="Shayan Kubernetes" />
-                        <img className=" m-1" src="https://img.shields.io/badge/AWS-black?style=flat&logo=amazonaws&logoColor=ffffff" alt="Shayan AWS" />
-                        <img className="m-1" src="https://img.shields.io/badge/Scrum-0175C2?style=flat&logo=scrumalliance&logoColor=white" alt="Shayan Scrum" />
-                        <img src="https://img.shields.io/badge/-DevOps-%23CC6699?style=flat&logo=azuredevops&logoColor=ffffff" alt="Shayan DevOps" className="m-1" />
-                        <img className="m-1" src="http://img.shields.io/badge/-SSO-3776AB?style=flat&logo=simkl&logoColor=ffffff" alt="Shayan SSO" />
-                        <img className="m-1" src="http://img.shields.io/badge/-Software Architecture-3776AB?style=flat&logo=&logoColor=ffffff" alt="Shayan SA" />
-                        <img className="m-1" src="https://img.shields.io/badge/Microservices-593D88?style=flat&logo=&logoColor=white" alt="Shayan Microservices" />
-                        <img className="m-1" src="http://img.shields.io/badge/-Jira-3776AB?style=flat&logo=jirasoftware&logoColor=ffffff" alt="Shayan Jira" />
-                        <img className="m-1" src="https://img.shields.io/badge/REST-0175C2?style=flat&logo=&logoColor=white" alt="Shayan REST" />
-                    </div>
-                </div>
+                
             </div>
             <ul className=" tracking-tight text-sm md:text-base w-10/12 emoji-list mt-4">
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
