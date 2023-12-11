@@ -17,6 +17,7 @@ export class AboutVivek extends Component {
             "about": <About />,
             "education": <Education />,
             "skills": <Skills />,
+            "games" : <Games />,
             "projects": <Projects />,
             "resume": <Resume />,
         }
@@ -105,6 +106,20 @@ export const displayAboutVivek = () => {
     return <AboutVivek />;
 }
 
+function Games() {
+    return (
+        <>
+            <div className=" font-medium relative text-2xl mt-2 md:mt-4 mb-4">
+                Games
+                <div className="absolute pt-px bg-white mt-px top-full w-full">
+                    <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-full"></div>
+                    <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
+                </div>
+            </div>
+            Demos coming soon!
+        </>
+    )
+}
 
 function About() {
     return (
