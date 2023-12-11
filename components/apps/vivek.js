@@ -117,6 +117,26 @@ function Games() {
                 </div>
             </div>
             Demos coming soon!
+            <a key="0" href="" target="_blank" rel="noreferrer" className="flex w-full flex-col px-4">
+                            <div className="w-full py-1 px-2 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 cursor-pointer">
+                                <div className="flex flex-wrap justify-between items-center">
+                                    <div className='flex justify-center items-center'>
+                                        <div className=" text-base md:text-lg mr-2">Stellar Strife: Galactic Guardian</div>
+                                    </div>
+                                </div>
+                                <ul className=" tracking-normal leading-tight text-sm font-light ml-4 mt-1">
+                                • Created a 3rd person shooter game in
+                                Unreal Engine 5.
+                                • Implemented custom animations for
+                                player movement, enhancing control.
+                                • Designed AI-controlled enemies for
+                                challenging gameplay.
+                                </ul>
+                                <div className="flex flex-wrap items-start justify-start text-xs py-2">
+                                <span key="0" className={`px-1.5 py-0.5 w-max border border-red-600 text-red-600 m-1 rounded-full`}>Unreal Engine 5</span>
+                                </div>
+                            </div>
+            </a>
         </>
     )
 }
