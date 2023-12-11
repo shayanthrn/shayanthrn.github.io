@@ -236,7 +236,7 @@ function Skills() {
                 </div>
                 <div className="px-2 w-1/2">
                     <div className="flex flex-wrap justify-center items-start w-full mt-2">
-                        <img className="m-1" src="https://img.shields.io/badge/C++-00599C?style=flat&logo=c&logoColor=white" alt="Shayan c++" />
+                        <img className="m-1" src="https://img.shields.io/badge/C++-00599C?style=flat&logo=c++&logoColor=white" alt="Shayan c++" />
                         <img className="m-1" src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" alt="Shayan c" />
                         <img className="m-1" src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff" alt="Shayan python" />
                         <img className="m-1" src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A" alt="Shayan javascript" />
