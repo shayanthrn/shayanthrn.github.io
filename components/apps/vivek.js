@@ -396,6 +396,7 @@ function Skills() {
                     <span> And of course,</span> <img className=" inline ml-1" src="http://img.shields.io/badge/-Linux-0078D6?style=plastic&logo=linux&logoColor=ffffff" alt="Shayan linux" /> <span>!</span>
                 </li>
                 <li>
+                    <br/>
                 </li>
             </ul>
         </>
