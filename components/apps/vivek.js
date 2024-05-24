@@ -212,16 +212,16 @@ function About() {
                 <img className="w-full" src="./images/logos/bitmoji.png" alt="Shayan Kazemi Tehrani Logo" />
             </div>
             <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
-                <div>Hi! my name is <span className="font-bold">Shayan Kazemi Tehrani</span> ,</div>
-                <div className="font-normal ml-1">I'm a <span className="text-pink-600 font-bold">Gameplay Engineer!</span></div>
-                🎮 Passionate Gameplay Engineer | Crafting Immersive Experiences.
+                <div>Hi! my name is <span className="font-bold">Hassan(Shayan) Kazemi Tehrani</span> ,</div>
+                <div className="font-normal ml-1">I'm a <span className="text-pink-600 font-bold">Software and AI Gameplay Engineer!</span></div>
+                🎮 Passionate Software and AI Gameplay Engineer | Crafting Immersive Experiences.
             </div>
             <div className=" mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-0"></div>
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
-                <li className=" list-pc">I'm a <span className=" font-medium">Graduate Student(Master of Applied Science)</span> currently pursuing Computer Engineering and I am researching on Computer Vision in IoT. I've completed my BSc at <u className=' cursor-pointer '> <a href="https://en.wikipedia.org/wiki/Amirkabir_University_of_Technology" target={"_blank"}>AmirKabir University of Technology</a> </u>. Right now I'm looking for full-time/part-time Gameplay Engineer roles! ( Hit me up <a className='text-underline' href='mailto:shayanthrn@gmail.com'><u>@shayanthrn@gmail.com</u></a> :) )</li>
+                <li className=" list-pc">I'm a <span className=" font-medium">Graduate Student(Master of Applied Science)</span> of Computer Engineering and I am a Artificial Intelligence Researher for NI2LAB. I've completed my BSc at <u className=' cursor-pointer '> <a href="https://en.wikipedia.org/wiki/Amirkabir_University_of_Technology" target={"_blank"}>AmirKabir University of Technology</a> </u>. Right now I'm looking for full-time/part-time AI Gameplay Engineer roles! ( Hit me up <a className='text-underline' href='mailto:shayanthrn@gmail.com'><u>@shayanthrn@gmail.com</u></a> :) )</li>
                 <li className=" mt-3 list-building">Diving into the dynamic realm of gameplay engineering, I bring a potent mix of passion, creativity, and a thirst for excellence in game development. With a focus on designing and implementing engaging gameplay features, I am committed to pushing the boundaries of interactive experiences.</li>
                 <li className=" mt-3 list-building"> I have worked for <u className=' cursor-pointer '><a href='https://pishgamvira.com/' target={"_blank"}>Vira Co.</a></u> as a Senior Software Engineer and Server Manager. In that position, I have developed a reservation system for doctors appointment in NodeJS(JavaScript). I was responsible for Design, development, deployment and maintenance of the project. As project failed due to some buissiness issues the source code is publicly available at <u className=' cursor-pointer '><a href='https://github.com/shayanthrn/reservation-vira-backend' target='blank'>my github repo</a></u>.</li>
                 <li className=" mt-3 list-building"> After a while, I found a better job oppurtunity at <span className=" font-medium"><u className=' cursor-pointer '><a href='https://idmelon.com/' target={"_blank"}>IDmelon Inc. Vancouver, Canada</a></u></span> as a Software Engineer. I was responsible for design, development, deployment and maintenance of IDmelon SSO server. As a team, we developed SAML2 and OIDC protocols and designed a SSO server for Phishing-resistant Passwordless FIDO2 Authentication. My main responsibilities were design Software Architecture and development of server using Django(Python) and modifying React.js UI.</li>
@@ -246,7 +246,7 @@ function Education() {
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
                         Master of Applied Science - Concordia University - Montreal, Canada
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2022 - present</div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2022 - 2024</div>
                     <div className=" text-sm md:text-base">Computer Engineering</div>
                     <div className="text-sm text-gray-300 font-bold mt-1">GPA &nbsp; 4/4.30</div>
                 </li>
@@ -359,6 +359,8 @@ function Skills() {
             <ul className=" tracking-tight text-sm md:text-base w-10/12 emoji-list mt-4">
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
                     <span> And of course,</span> <img className=" inline ml-1" src="http://img.shields.io/badge/-Linux-0078D6?style=plastic&logo=linux&logoColor=ffffff" alt="Shayan linux" /> <span>!</span>
+                </li>
+                <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
                 </li>
             </ul>
         </>
