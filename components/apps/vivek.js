@@ -281,34 +281,34 @@ function Work() {
             <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
             <li className="list-disc">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Concordia University
+                    Artificial Intelligence Researcher
                     </div>
                     <div className=" text-sm text-gray-400 mt-0.5">Sep 2022 - Present</div>
-                    <div className=" text-sm md:text-base">Artificial Intelligence Researcher</div>
+                    <div className=" text-sm md:text-base">Concordia University</div>
                     <div className="text-sm text-gray-300 font-bold mt-1">Full-time</div>
                 </li>
                 <li className="list-disc">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        IDmelon Technologies Inc.
+                    Software Engineer
                     </div>
                     <div className=" text-sm text-gray-400 mt-0.5">Mar 2022 - Aug 2023</div>
-                    <div className=" text-sm md:text-base">Software Engineer</div>
+                    <div className=" text-sm md:text-base">IDmelon Technologies Inc.</div>
                     <div className="text-sm text-gray-300 font-bold mt-1">Full-time</div>
                 </li>
                 <li className="list-disc">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        The Canadian Society of Information Theory - BSC 2023 conference
+                    Web Chair
                     </div>
                     <div className=" text-sm text-gray-400 mt-0.5">Jan 2023 - Jul 2023</div>
-                    <div className=" text-sm md:text-base">Web Chair</div>
+                    <div className=" text-sm md:text-base">The Canadian Society of Information Theory - BSC 2023 conference</div>
                     <div className="text-sm text-gray-300 font-bold mt-1">On-Call</div>
                 </li>
                 <li className="list-disc">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        VIRA
+                        Senior Software Engineer
                     </div>
                     <div className=" text-sm text-gray-400 mt-0.5">Dec 2019 - Dec 2021</div>
-                    <div className=" text-sm md:text-base">Senior Software Engineer</div>
+                    <div className=" text-sm md:text-base">VIRA</div>
                     <div className="text-sm text-gray-300 font-bold mt-1">Full-time</div>
                 </li>
             </ul>
