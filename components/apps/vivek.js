@@ -324,7 +324,7 @@ function Skills() {
             <div className="w-full md:w-10/12 flex mt-4">
                 <div className=" text-sm text-center md:text-base w-1/2 font-bold">Communication Languages</div>
                 <div className=" text-sm text-center md:text-base w-1/2 font-bold">Languages</div>
-                <div className=" text-sm text-center md:text-base w-1/2 font-bold">Game Design & Engineering Skills</div>
+                <div className=" text-sm text-center md:text-base w-1/2 font-bold">Engineering & Game Development Skills</div>
                 <div className=" text-sm text-center md:text-base w-1/2 font-bold">Frameworks & Libraries</div>
                 
             </div>
