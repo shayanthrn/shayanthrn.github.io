@@ -15,7 +15,7 @@ export class AboutVivek extends Component {
     componentDidMount() {
         this.screens = {
             "about": <About />,
-            "Work": <Work />,
+            "work": <Work />,
             "education": <Education />,
             "skills": <Skills />,
             "games" : <Games />,
