@@ -328,6 +328,7 @@ function Skills() {
                         <img src="https://img.shields.io/badge/-Google App Engine/Google Cloud-%23CC6699?style=flat&logo=googlecloud&logoColor=ffffff" alt="Shayan GAE" className="m-1" />
                         <img src="https://img.shields.io/badge/-Docker-%23F05032?style=flat&logo=docker&logoColor=%23ffffff" alt="Shayan Docker" className="m-1" />
                         <img className="m-1" src="http://img.shields.io/badge/-Kubernetes-3776AB?style=flat&logo=kubernetes&logoColor=ffffff" alt="Shayan Kubernetes" />
+                        <img className="m-1" src="http://img.shields.io/badge/-Jenkins-3776AB?style=flat&logo=Jenkins&logoColor=white" alt="Shayan Jenkins" />
                         <img className=" m-1" src="https://img.shields.io/badge/AWS-black?style=flat&logo=amazonaws&logoColor=ffffff" alt="Shayan AWS" />
                         <img className="m-1" src="https://img.shields.io/badge/Scrum-0175C2?style=flat&logo=scrumalliance&logoColor=white" alt="Shayan Scrum" />
                         <img src="https://img.shields.io/badge/-DevOps-%23CC6699?style=flat&logo=azuredevops&logoColor=ffffff" alt="Shayan DevOps" className="m-1" />
