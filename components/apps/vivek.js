@@ -272,28 +272,44 @@ function Work() {
     return (
         <>
             <div className=" font-medium relative text-2xl mt-2 md:mt-4 mb-4">
-                Education
+                Work
                 <div className="absolute pt-px bg-white mt-px top-full w-full">
                     <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-full"></div>
                     <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
                 </div>
             </div>
             <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
-                <li className="list-disc">
+            <li className="list-disc">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Master of Applied Science - Concordia University - Montreal, Canada
+                        Concordia University
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2022 - 2024</div>
-                    <div className=" text-sm md:text-base">Computer Engineering</div>
-                    <div className="text-sm text-gray-300 font-bold mt-1">GPA &nbsp; 4/4.30</div>
+                    <div className=" text-sm text-gray-400 mt-0.5">Sep 2022 - Present</div>
+                    <div className=" text-sm md:text-base">Artificial Intelligence Researcher</div>
+                    <div className="text-sm text-gray-300 font-bold mt-1">Full-time</div>
                 </li>
                 <li className="list-disc">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Bachelor of Engineering - Amirkabir University of Technology - Tehran, Iran (Rank 1 of Iran)
+                        IDmelon Technologies Inc.
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2017 - 2021</div>
-                    <div className=" text-sm md:text-base">Computer Engineering</div>
-                    <div className="text-sm text-gray-300 font-bold mt-1">GPA &nbsp; 3.9/4, Top 3% of University</div>
+                    <div className=" text-sm text-gray-400 mt-0.5">Mar 2022 - Aug 2023</div>
+                    <div className=" text-sm md:text-base">Software Engineer</div>
+                    <div className="text-sm text-gray-300 font-bold mt-1">Full-time</div>
+                </li>
+                <li className="list-disc">
+                    <div className=" text-lg md:text-xl text-left font-bold leading-tight">
+                        The Canadian Society of Information Theory - BSC 2023 conference
+                    </div>
+                    <div className=" text-sm text-gray-400 mt-0.5">Jan 2023 - Jul 2023</div>
+                    <div className=" text-sm md:text-base">Web Chair</div>
+                    <div className="text-sm text-gray-300 font-bold mt-1">On-Call</div>
+                </li>
+                <li className="list-disc">
+                    <div className=" text-lg md:text-xl text-left font-bold leading-tight">
+                        VIRA
+                    </div>
+                    <div className=" text-sm text-gray-400 mt-0.5">Dec 2019 - Dec 2021</div>
+                    <div className=" text-sm md:text-base">Senior Software Engineer</div>
+                    <div className="text-sm text-gray-300 font-bold mt-1">Full-time</div>
                 </li>
             </ul>
         </>
