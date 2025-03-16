@@ -121,7 +121,36 @@ function Games() {
                     <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
                 </div>
             </div>
-            Demos coming soon!
+            <a key="3" href="" target="_blank" rel="noreferrer" className="flex w-full flex-col px-4">
+                            <div className="w-full py-1 px-2 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 cursor-pointer">
+                                <div className="flex flex-wrap justify-between items-center">
+                                    <div className='flex justify-center items-center'>
+                                        <div className=" text-base md:text-lg mr-2">Call of Duty: BlackOps 6</div>
+                                    </div>
+                                </div>
+                                <ul className=" tracking-normal leading-tight text-sm font-light ml-4 mt-1">
+                                </ul>
+                                <div className="flex flex-wrap items-start justify-start text-xs py-2">
+                                <span key="3" className={`px-1.5 py-0.5 w-max border border-red-600 text-red-600 m-1 rounded-full`}>Proprietary Engine</span>
+                                <iframe width="853" height="480" src="https://www.youtube.com/embed/Q10Ghx7vFBg" title="Call of Duty: Black Ops 6 - Black Ops 6 is HERE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
+                            </div>
+            </a>
+            <a key="3" href="" target="_blank" rel="noreferrer" className="flex w-full flex-col px-4">
+                            <div className="w-full py-1 px-2 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 cursor-pointer">
+                                <div className="flex flex-wrap justify-between items-center">
+                                    <div className='flex justify-center items-center'>
+                                        <div className=" text-base md:text-lg mr-2">Call of Duty: Warzone</div>
+                                    </div>
+                                </div>
+                                <ul className=" tracking-normal leading-tight text-sm font-light ml-4 mt-1">
+                                </ul>
+                                <div className="flex flex-wrap items-start justify-start text-xs py-2">
+                                <span key="3" className={`px-1.5 py-0.5 w-max border border-red-600 text-red-600 m-1 rounded-full`}>Proprietary Engine</span>
+                                <iframe width="853" height="480" src="https://www.youtube.com/embed/s8vuGF6g2TI" title="Area 99 Launch Trailer | Call of Duty: Warzone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
+                            </div>
+            </a>
             <a key="0" href="" target="_blank" rel="noreferrer" className="flex w-full flex-col px-4">
                             <div className="w-full py-1 px-2 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 cursor-pointer">
                                 <div className="flex flex-wrap justify-between items-center">
@@ -337,7 +366,7 @@ function Skills() {
                     I've worked with a wide variety of programming languages & frameworks.
                 </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    <div> My areas of expertise is <strong className="text-ubt-gedit-orange">Software and AI Gameplay Engineering!</strong></div>
+                    <div> My areas of expertise is <strong className="text-ubt-gedit-orange">Software, DevOps, ML, and Gameplay Engineering!</strong></div>
                 </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
                     <div>Here are my most frequently used</div>
