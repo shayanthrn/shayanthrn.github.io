@@ -277,11 +277,19 @@ function Work() {
                 </div>
             </div>
             <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
-            <li className="list-disc">
+                <li className="list-disc">
+                    <div className=" text-lg md:text-xl text-left font-bold leading-tight">
+                    Gameplay Software Engineer
+                    </div>
+                    <div className=" text-sm text-gray-400 mt-0.5">Sep 2024 - present</div>
+                    <div className=" text-sm md:text-base">Beenox/Activision</div>
+                    <div className="text-sm text-gray-300 font-bold mt-1">Full-time</div>
+                </li>
+                <li className="list-disc">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
                     Artificial Intelligence Researcher
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">Sep 2022 - Present</div>
+                    <div className=" text-sm text-gray-400 mt-0.5">Sep 2022 - Sep 2024</div>
                     <div className=" text-sm md:text-base">Concordia University</div>
                     <div className="text-sm text-gray-300 font-bold mt-1">Full-time</div>
                 </li>
