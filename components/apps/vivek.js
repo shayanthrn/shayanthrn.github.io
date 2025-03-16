@@ -218,7 +218,7 @@ function About() {
             </div>
             <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
                 <div>Hi! my name is <span className="font-bold">Hassan(Shayan) Kazemi Tehrani</span> ,</div>
-                <div className="font-normal ml-1">I'm a <span className="text-pink-600 font-bold">Gameplay Engineer</span> working on <span className="text-pink-600 font-bold">Call of Duty</span></div>
+                <div className="font-normal ml-1">I'm a <span className="text-pink-600 font-bold">Gameplay Engineer</span> working on <span className="text-ubt-gedit-orange font-bold">Call of Duty</span> at <span className="font-bold">Activision!</span></div>
             </div>
             <div className=" mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-0"></div>
