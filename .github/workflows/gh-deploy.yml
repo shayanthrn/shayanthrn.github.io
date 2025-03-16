@@ -43,7 +43,7 @@ jobs:
           folder: out # The folder the action should deploy.
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
 
